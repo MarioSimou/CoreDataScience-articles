@@ -1,0 +1,36 @@
+{
+  "name": "cds-web-development-mongo-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f .env nodemon -x babel-node ./src/index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioSimou/cds-web-development-mongo-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioSimou/cds-web-development-mongo-mongoose/issues"
+  },
+  "homepage": "https://github.com/MarioSimou/cds-web-development-mongo-mongoose#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.9.9",
+    "env-cmd": "^10.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "gql-tag": "^1.0.1",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "nodemon": "^1.19.2"
+  }
+}
